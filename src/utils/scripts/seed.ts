@@ -4,7 +4,6 @@ import { DB, PointsMode } from '../../shared/models/db';
 import { db } from '../firebase/firebase';
 
 const questions = [
-  "Aici se vă afișa întrebarea!",
   "Ce găsești în geanta unei studente?",
   "Care este cel mai folosit lucru într-o cameră de studenți?",
   "Care este cel mai tare club din Cluj?",
