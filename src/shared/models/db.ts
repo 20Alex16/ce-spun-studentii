@@ -28,6 +28,12 @@ export interface DB {
   currentQuestion: number;
   pointsMultiplier: PointsMode;
   questions: DBQuestion[];
+  flashQuestions: DBQuestion[];
   team1: DBTeam;
   team2: DBTeam;
+  flashRoundTeam: 1 | 2;
+  flash: {
+    answers1: {answer: string, points: number}[];
+    answers2: {answer: string, points: number}[];
+  }
 }
